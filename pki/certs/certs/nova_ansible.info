@@ -1,0 +1,128 @@
+authority_cert_issuer: null
+authority_cert_serial_number: null
+authority_key_identifier: 26:1a:ed:db:26:ec:68:c1:95:b8:46:22:27:cf:d8:8a:42:04:50:32
+basic_constraints: null
+basic_constraints_critical: false
+changed: false
+expired: false
+extended_key_usage:
+- TLS Web Client Authentication
+- TLS Web Server Authentication
+extended_key_usage_critical: false
+extensions_by_oid:
+    2.5.29.14:
+        critical: false
+        value: BBTBG334R5FTbAziK2Rn20N7jiJtPQ==
+    2.5.29.15:
+        critical: false
+        value: AwIDqA==
+    2.5.29.17:
+        critical: false
+        value: MBiCB2Fuc2libGWCB2Fuc2libGWHBAoAeww=
+    2.5.29.35:
+        critical: false
+        value: MBaAFCYa7dsm7GjBlbhGIifP2IpCBFAy
+    2.5.29.37:
+        critical: false
+        value: MBQGCCsGAQUFBwMCBggrBgEFBQcDAQ==
+failed: false
+fingerprints:
+    blake2b: be:42:2c:33:51:5e:12:70:d3:ee:60:0d:26:14:ac:40:70:b1:7a:b1:2e:f5:0a:37:71:5d:e2:80:b2:21:bf:8b:28:12:03:f6:8b:01:48:c1:50:a0:69:58:b6:0f:ea:08:d2:a4:69:91:d9:9f:7f:4e:a8:29:ce:3e:81:bb:9e:2b
+    blake2s: 9f:34:60:84:d0:d6:43:b6:3a:32:90:61:97:21:c0:70:5f:fe:dc:fd:c9:2c:ec:2a:6a:75:95:c7:2a:b7:b7:d4
+    md5: 1c:82:19:96:e5:fd:16:29:c0:2f:5f:82:29:f9:b9:6f
+    sha1: c1:0f:a3:70:4f:ae:a0:df:6f:6d:37:1e:f7:07:1a:52:09:cf:85:ca
+    sha224: 0e:5d:79:49:14:28:0b:7a:0f:80:5d:48:f4:de:28:59:7f:c4:ff:08:5c:0c:13:16:7a:44:4c:77
+    sha256: b8:48:d0:03:10:bc:f5:e0:11:59:66:25:55:96:60:c2:f5:e8:20:98:43:f8:93:4b:1b:a8:c4:5c:b9:71:52:c5
+    sha384: 8c:1c:d8:f9:a4:0e:d5:48:34:9a:23:05:d9:eb:70:bd:5a:01:5c:d7:0b:f0:23:0c:66:d1:63:47:af:9f:ba:38:3c:4e:93:7f:90:1d:14:5a:8b:0c:e6:86:5e:41:cf:d3
+    sha3_224: d0:18:15:02:14:60:f6:c9:40:60:48:0c:9c:01:11:d8:95:3c:4d:ef:37:e2:9a:63:48:20:94:da
+    sha3_256: 4c:66:34:a9:b6:a9:fc:0a:fe:27:87:f5:26:35:06:10:02:9c:6f:8a:42:b3:0c:a1:a7:be:20:f8:4c:d5:fb:21
+    sha3_384: 68:ae:3f:2d:8d:43:be:4a:e4:5c:44:ff:dc:8f:91:20:ad:19:b6:01:30:47:8d:c9:e9:51:8c:96:ca:3c:9d:e4:89:04:b8:38:a7:5c:27:dc:63:e5:99:b8:be:6e:b8:de
+    sha3_512: 37:4c:c4:af:60:84:92:3d:c1:c2:9b:1d:5c:83:20:10:bb:04:d9:da:e9:a4:54:3f:6c:c7:4a:ef:aa:4a:e7:11:90:84:dd:29:3c:72:ee:ab:04:cf:d6:e5:9c:5c:14:e6:24:01:8e:df:21:29:7a:c9:3e:b2:48:d7:40:b5:64:1f
+    sha512: be:cc:e0:6e:0e:a0:59:fd:64:2c:c2:10:a3:00:df:78:4f:df:80:4b:bf:22:63:52:a9:d8:e1:b0:48:a6:81:82:b6:07:dc:fa:8e:62:1e:d3:69:ff:cb:d3:5d:17:9d:2f:12:70:f4:fe:45:bd:0c:63:19:3d:e0:b2:65:a8:e4:54
+    shake_128: 1d:03:d1:de:22:52:98:52:40:5d:1d:9e:6c:7b:93:3a:b6:42:b2:de:33:e8:9a:7e:ba:d3:a8:b1:06:9a:b7:2b
+    shake_256: 46:ea:e9:3b:88:cc:c9:a7:48:d7:ad:91:06:34:a7:d1:c9:b3:db:af:ae:97:80:0d:30:a8:dd:60:31:04:15:c2
+issuer:
+    commonName: Example Corp Openstack Infrastructure Intermediate CA
+    countryName: GB
+    stateOrProvinceName: England
+issuer_ordered:
+-   - countryName
+    - GB
+-   - stateOrProvinceName
+    - England
+-   - commonName
+    - Example Corp Openstack Infrastructure Intermediate CA
+key_usage:
+- Digital Signature
+- Key Agreement
+- Key Encipherment
+key_usage_critical: false
+not_after: 20320227101130Z
+not_before: 20220301101130Z
+ocsp_must_staple: null
+ocsp_must_staple_critical: false
+ocsp_uri: null
+public_key: '-----BEGIN PUBLIC KEY-----
+
+    MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1wuApa6KZbXtU3EX6Iii
+
+    VMER14+Ndzn9/j6vLV3Q0b09RRjOc8POw9Nq1EfGgIEbEXFRgorr/XOrWckLcvif
+
+    EczqVHEBFlDSNIJL2ER4wPozYMX2cbUNw/w3JxRDADUbr9AiDV+hYZqfZceYnfcj
+
+    jrRKWL6J4Elk6h6o6QgA/7mZntsujUSubtGWmS40DrDbERQvyjt94JujToMbm1ZF
+
+    UZj/yGLO2ZfXfCeBHAvvXcCIzVKwHyLyaSZYr3iIZgIBNT2w0JxSSV7qn5AuT7N4
+
+    T3dmeYTCEpKCzJMlRWju8qHb/f3wVe/3cMdkEy/9uVe8nhEjlROzdrH6NDB4YDOk
+
+    JYVHiSASW2gWV67Qx9CNoNSvDoyTPLSgyJU8pgyLZUDI4txenYV+Y0bNXpcJNcYu
+
+    vQJPx0G4eQK11w6Fom0V57NQiy9KN492Z048/pOteWrPIY5EQaljIr6BniV37Tgx
+
+    m/NZSttPJKvcRUW8ADkbomKuUenvw8VQ9QrXIfCz8Wt65KA2jNdxJHb/fS/jJnYy
+
+    0aCd9Q6s3pwca75/CZ2neNVPWLzku9QgjWO1d6BBfDlFvKVLpf6AQGNYXu6RV/SX
+
+    TmODdB7R89GuHZEln8GummimxZyKC+7GycfeTGMy0pg9LYWC3DmNIza6eWUafH6G
+
+    nHifrSwyEsVjsQqBvEijFy8CAwEAAQ==
+
+    -----END PUBLIC KEY-----
+
+    '
+public_key_data:
+    exponent: 65537
+    modulus: 877306780173331969339866111740011904454359511781986198633314778944910550885735921051410993050208304445163064135500763489245304224142843873327264517610962986720309951898887271914834053330581126008066591312326709365880857949054688693764486412890111047697145046019900725137767134745336853956971630102370108616395231173692372994472841005044182113518026892552706262764375224110767944415337524237587445038498487520443068610309728736096724107562800320538814744187524329100663316833409100056888288224811387613498384037443026734447221333152503149664035985744042167023235829013692135259435495697328566110037053730977261026688161354448487845518950474133598047406646056200376997577828358635801855967321685774453407077073422281303918735817532241926465757219378139598190769961658141704331871579088521170751507200844725448068878979237169311350227998383697483697136300625711738753112445288301580250760545307737672247676296770794075940354460401378989834624157204560377222981697334276317632319874514777193130431786500216232688534220565843295405869360135462516234839940289769962888940547290266018223926443403888641189205473174202151413737872058845654445841520927623049642423928943272652592418059035167525983119079066810822982197164036263695640873342767
+    size: 4096
+public_key_fingerprints:
+    blake2b: a0:26:6c:82:95:65:05:4d:70:d0:72:9c:8c:40:f9:4d:db:5a:88:c8:48:60:14:e7:09:51:37:48:80:0f:56:f1:a6:80:2f:50:36:49:e5:11:61:04:5a:37:34:74:81:89:29:89:cb:45:25:b9:19:89:8d:bf:e4:21:e5:bc:74:f3
+    blake2s: c0:7a:38:f8:19:81:34:28:65:73:e3:7e:4f:ae:92:55:73:a8:ca:46:00:b1:50:69:1c:af:3c:6d:43:b6:de:80
+    md5: 17:05:ab:e1:49:4f:03:54:c6:5f:a4:16:e0:0c:9d:de
+    sha1: a2:a1:5b:e3:8b:04:90:65:82:f1:f1:6b:74:16:4b:23:13:cc:fa:0d
+    sha224: a9:91:9f:59:fc:f1:80:b5:d4:a7:77:d4:74:89:94:92:a4:0b:be:b5:c3:59:aa:00:3b:87:28:80
+    sha256: 7f:70:5e:75:7d:d4:a6:55:eb:ed:31:76:1e:83:b4:45:82:f8:56:e1:34:c5:ef:d3:cc:55:64:13:9d:96:89:36
+    sha384: a6:37:67:47:68:ac:33:7e:83:a6:22:d6:b0:90:21:80:60:94:e7:54:e3:15:ab:e0:aa:11:ab:08:ca:6f:7e:76:65:d7:9b:d7:fb:1c:24:8e:54:f1:de:88:01:20:bf:51
+    sha3_224: 21:d0:56:e1:bb:8f:0e:3c:69:cb:71:16:fe:56:17:77:9a:23:24:67:71:1a:03:97:05:73:7d:b2
+    sha3_256: 98:3f:ce:0e:86:71:ba:1c:9e:15:90:13:bb:a4:8a:ad:d7:44:f9:1f:36:6a:47:04:ae:5e:2e:8e:08:b2:9d:a5
+    sha3_384: 27:ee:9f:ef:ce:0b:93:70:5c:5d:37:18:25:99:6d:41:92:bb:56:94:da:14:80:fa:2d:c7:e5:62:00:ad:10:ac:3b:27:27:db:56:60:fb:c4:07:41:34:01:10:e8:c3:7d
+    sha3_512: 5c:e7:fa:66:fc:dc:5c:59:43:04:a1:1f:6a:1c:fa:9e:43:88:e6:9c:30:f2:9b:5e:1c:2f:4d:b1:7a:7b:ba:bd:3f:1d:9b:0e:cb:44:01:65:d2:05:52:9c:2a:d3:a6:59:7c:aa:15:0d:d7:fc:ad:c3:fa:c0:a2:79:77:05:3d:f2
+    sha512: c4:79:c2:05:09:13:bd:32:7b:53:82:88:02:c2:81:9b:f8:98:c9:38:02:43:ff:3c:d0:c9:e1:f7:44:cc:99:e3:c2:3f:8a:44:1b:b9:86:cb:b3:15:13:bd:d6:d5:f3:5b:3a:b6:f7:76:a0:36:cf:b9:bf:31:74:9f:32:98:33:5a
+    shake_128: 38:aa:22:7d:01:29:05:6f:85:06:04:93:8a:55:5a:99:6f:7b:a8:2b:3d:04:a2:0c:74:f8:8b:05:8d:a0:2b:f1
+    shake_256: db:35:cf:54:38:cf:53:6e:ed:2c:9f:61:bb:9d:76:85:d3:1e:f0:27:05:1b:b7:f2:7d:f0:d7:47:75:cb:53:59
+public_key_type: RSA
+serial_number: 636820806758076241631495668494871708214883217038
+signature_algorithm: sha256WithRSAEncryption
+subject:
+    commonName: ansible
+subject_alt_name:
+- DNS:ansible
+- DNS:ansible
+- IP:10.0.123.12
+subject_alt_name_critical: false
+subject_key_identifier: c1:1b:7d:f8:47:91:53:6c:0c:e2:2b:64:67:db:43:7b:8e:22:6d:3d
+subject_ordered:
+-   - commonName
+    - ansible
+valid_at: {}
+version: 3

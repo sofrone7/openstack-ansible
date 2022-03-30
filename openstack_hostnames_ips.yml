@@ -1,0 +1,63 @@
+# This file is managed by openstack-ansible. No manual edits.
+{
+    "compute1": {
+        "ansible_host": "10.0.123.12",
+        "container_address": "10.0.123.12"
+    },
+    "infra1": {
+        "ansible_host": "10.0.123.11",
+        "container_address": "10.0.123.11"
+    },
+    "infra1_cinder_api_container-c2ebafd7": {
+        "ansible_host": "10.0.123.67",
+        "container_address": "10.0.123.67"
+    },
+    "infra1_galera_container-acda48b8": {
+        "ansible_host": "10.0.121.157",
+        "container_address": "10.0.121.157"
+    },
+    "infra1_glance_container-6e6a676c": {
+        "ansible_host": "10.0.120.184",
+        "container_address": "10.0.120.184"
+    },
+    "infra1_heat_api_container-06b1e95d": {
+        "ansible_host": "10.0.120.173",
+        "container_address": "10.0.120.173"
+    },
+    "infra1_horizon_container-f75d71f3": {
+        "ansible_host": "10.0.120.192",
+        "container_address": "10.0.120.192"
+    },
+    "infra1_keystone_container-05a6c5bf": {
+        "ansible_host": "10.0.121.75",
+        "container_address": "10.0.121.75"
+    },
+    "infra1_memcached_container-510bf1b5": {
+        "ansible_host": "10.0.123.87",
+        "container_address": "10.0.123.87"
+    },
+    "infra1_neutron_server_container-08bd30d2": {
+        "ansible_host": "10.0.122.94",
+        "container_address": "10.0.122.94"
+    },
+    "infra1_nova_api_container-7fc29f55": {
+        "ansible_host": "10.0.123.245",
+        "container_address": "10.0.123.245"
+    },
+    "infra1_placement_container-974e44a1": {
+        "ansible_host": "10.0.120.37",
+        "container_address": "10.0.120.37"
+    },
+    "infra1_rabbit_mq_container-bbca74ae": {
+        "ansible_host": "10.0.123.53",
+        "container_address": "10.0.123.53"
+    },
+    "infra1_repo_container-260b6ab8": {
+        "ansible_host": "10.0.123.249",
+        "container_address": "10.0.123.249"
+    },
+    "infra1_utility_container-23297593": {
+        "ansible_host": "10.0.122.45",
+        "container_address": "10.0.122.45"
+    }
+}

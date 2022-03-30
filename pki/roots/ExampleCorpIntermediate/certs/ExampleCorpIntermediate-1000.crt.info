@@ -1,0 +1,132 @@
+authority_cert_issuer: null
+authority_cert_serial_number: null
+authority_key_identifier: ed:2b:be:6d:44:f1:1a:e6:29:f8:1b:6c:68:5c:6e:f7:e7:43:21:6d
+basic_constraints:
+- CA:TRUE
+- pathlen:0
+basic_constraints_critical: true
+changed: false
+expired: false
+extended_key_usage: null
+extended_key_usage_critical: false
+extensions_by_oid:
+    2.5.29.14:
+        critical: false
+        value: BBQmGu3bJuxowZW4RiInz9iKQgRQMg==
+    2.5.29.15:
+        critical: false
+        value: AwIBhg==
+    2.5.29.17:
+        critical: false
+        value: MDeCNUV4YW1wbGUgQ29ycCBPcGVuc3RhY2sgSW5mcmFzdHJ1Y3R1cmUgSW50ZXJtZWRpYXRlIENB
+    2.5.29.19:
+        critical: true
+        value: MAYBAf8CAQA=
+    2.5.29.35:
+        critical: false
+        value: MBaAFO0rvm1E8RrmKfgbbGhcbvfnQyFt
+failed: false
+fingerprints:
+    blake2b: 64:0c:d7:87:45:d5:b3:73:29:29:e3:1a:fc:f2:78:b1:c7:d2:ee:b4:71:55:e5:06:f1:f0:30:fb:7a:1b:a7:ba:25:d6:7f:0b:e0:ff:1a:85:ec:64:55:c0:6e:ec:31:ac:00:bf:42:44:87:17:a3:f5:70:39:14:86:2c:52:46:bf
+    blake2s: 6d:ba:6e:1a:5a:51:f9:73:79:73:47:dd:bf:f5:1b:52:47:8e:1b:fc:7f:7b:97:47:c4:03:bc:47:11:e7:69:fa
+    md5: d9:b4:9a:f2:cc:c2:19:91:36:36:b9:c8:b8:a7:c1:fa
+    sha1: 70:d3:7d:b8:c5:2d:6e:c8:14:39:96:03:10:0f:22:d2:cf:ec:8c:67
+    sha224: 40:ae:aa:35:bd:73:f1:6e:18:43:16:32:c0:ed:c6:82:37:d9:d6:ac:74:28:bf:a1:1a:72:35:06
+    sha256: 87:67:bd:b3:9a:5f:c0:85:08:cd:41:2f:d5:c8:9c:21:1b:e1:14:a0:aa:36:44:2a:0b:c0:f2:a1:2f:b3:a7:48
+    sha384: 7e:01:00:5f:d1:90:f4:aa:64:3d:fd:6c:78:37:ff:87:95:8a:b3:f5:51:92:6e:68:09:35:f4:6e:a9:72:83:3a:31:8e:ac:7c:12:41:b4:5e:e9:85:0a:d9:03:55:c9:49
+    sha3_224: 06:76:80:5f:77:73:81:c5:6b:e2:f3:8e:5c:68:8e:74:c8:88:d1:84:0f:1e:e6:13:40:b6:6f:c6
+    sha3_256: c6:2b:8f:46:59:f4:83:81:3c:8d:cc:12:7e:16:06:6d:61:11:8c:fe:58:17:37:bb:51:34:57:9a:af:4b:f6:b8
+    sha3_384: ac:f0:8f:48:06:13:d2:53:5a:04:95:07:05:1f:25:51:c5:bb:ac:e4:50:13:02:8f:a0:5b:15:d6:0d:c0:fb:39:d9:d3:e2:1c:19:69:e1:ed:e7:a8:3a:8d:f1:23:aa:7c
+    sha3_512: 94:45:16:68:14:62:11:ab:47:f1:cf:eb:a8:62:56:4d:70:12:7c:92:9e:97:bb:ee:00:12:8f:12:7c:8c:7b:20:6f:42:ff:1f:70:ad:0a:59:0e:a1:eb:63:0f:07:ee:98:aa:15:0f:22:e3:dd:a2:3b:3e:42:f0:26:72:6a:73:be
+    sha512: c6:47:86:1b:66:53:dd:35:19:15:c4:f8:53:a7:03:50:c1:75:a4:01:1e:0c:25:8e:1f:b8:de:6d:a9:0d:83:47:2f:1a:87:b7:dc:d8:5a:6c:2b:0d:13:fd:46:fc:ac:6d:35:bb:8d:f9:d7:29:fc:06:56:62:fe:8e:28:70:25:57
+    shake_128: 3e:a9:3a:8a:d4:fc:79:21:f8:00:4b:6e:0d:b9:60:8a:7a:e5:6c:09:22:0e:1b:1f:a1:1e:bf:56:5f:92:18:da
+    shake_256: b5:71:cc:65:2b:17:03:57:6c:1b:32:41:05:b4:f3:4c:0a:12:0b:47:ad:a9:ae:d4:61:34:7f:72:67:6d:4c:5c
+issuer:
+    commonName: Example Corp Root CA
+    countryName: GB
+    stateOrProvinceName: England
+issuer_ordered:
+-   - countryName
+    - GB
+-   - stateOrProvinceName
+    - England
+-   - commonName
+    - Example Corp Root CA
+key_usage:
+- CRL Sign
+- Certificate Sign
+- Digital Signature
+key_usage_critical: false
+not_after: 20320227091207Z
+not_before: 20220301091207Z
+ocsp_must_staple: null
+ocsp_must_staple_critical: false
+ocsp_uri: null
+public_key: '-----BEGIN PUBLIC KEY-----
+
+    MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvVv6QOR6ERDvN5ftvpK4
+
+    P06K/LrDEKZ5PqXmBzgmlB1aEX5pNIs3L1aJVt4LNjQ1RbRh14bnZix7SUnjqfJN
+
+    FUCXp9C+BlspnJAJS1HOZamM/q2sN4zD27NpogRoF9EgK7sd8cMplEh1YSICKza2
+
+    7ukVRI1YIOi6nYKPs7qJGtq7EX0GuICuVvRYbzL1h402+4QqPbefQYMx72mNzqC4
+
+    eYDuCikkgHyWQUyQuk3JgVhxsPoeXy3M/eaCBGsIWA+Pr8M5wXxHPMc7jnk90HFU
+
+    hlIxP9u7PTf3KCEbElHrbZktBBf8HG6c6PLp3k90rSvjIMYvj8y4YSigREMRwk6x
+
+    Qf7b5ze3x9CAFAWO0wSC4VD1lZFXJo83dGm8c0Fizrv9zBtnRA9Bd7h5kUaP63Qx
+
+    QBLuFI3r+kfUYMITrQV3E+qOJiDrIqatqD9GP6SAzqjF5o0mn5YRUZr6ECZfwuxu
+
+    TPeFXwL2RIG3Kz0mr70GeeuL9l/dGnKDQx8SImKns6DxmHdjP1cTvgjjZ9lx/loc
+
+    to4pHTqkSvnmkgXqPNjno3Xfqy0oKzgpsrmhdyOsN4kFb9GhlJoa3JAELb+HMHy1
+
+    F7exOjpCDLmUPYi3g85RD0kD+FaYhoWsBGKgTStSkog0BZNbSjKq7WQIzPfVkuKe
+
+    oMRxUJS5u5Vquu3uMxUbm8UCAwEAAQ==
+
+    -----END PUBLIC KEY-----
+
+    '
+public_key_data:
+    exponent: 65537
+    modulus: 772518493219808500331092120907521725337600306000290881304379664236254040233112488204517870928869244849960913180935854161458549039943679318411770727708727574077985161717628251348496028950718302385697264615684516927975327323152543151186568206138850636175167075192137037211770385591316522390030472991146013691672581609318672938486235063363303918501168562055848944814568974799311427846623816202039618755997967523934674815394538535470348076521786211529929105950635205244043597123616516623593233680267082573917560646070234967981434533558056706458783477188779980642596585525810117950319603862515629157572670777815242032387876411833766443387397056299270135775288323132417436102146285765951099107981941412897582161214035012574802745665644029045841323081619790940864895586725218064643452546711318181399141761228264272950868282686365951610842198503858909864089569753480618662054146338127298739590734940991309671491010801968066955745232246281542584629227429296698712031340660835540404862812718282528018856238978537166332112894310672034620649230031612213340422259948823769949438315949051781731337407164620413050650013234798027250524145055602111976557186965410684708833976123320959138708836070736150686139416239442503567195040481456866166266633157
+    size: 4096
+public_key_fingerprints:
+    blake2b: 3c:fe:73:8d:b9:52:d4:b4:05:b2:8f:f5:db:13:44:7b:30:23:1f:31:15:cd:8e:69:36:73:dd:b9:b3:90:19:63:37:ab:9d:28:63:4c:74:cf:33:4a:8a:77:f0:d2:fe:e0:81:f8:0b:e1:03:44:e7:fd:54:33:76:34:e4:39:75:ed
+    blake2s: 10:e7:69:ce:00:fd:29:3c:75:dc:18:ea:bd:f6:96:25:c1:7d:0c:4c:14:e5:2b:86:dc:c3:a9:f5:76:40:90:eb
+    md5: e4:b5:50:4e:dc:83:93:8d:9a:33:23:8c:ad:5f:c2:1f
+    sha1: ae:ea:d9:44:ac:f4:75:0e:34:27:81:ab:a4:c9:b4:b8:1c:c7:39:ab
+    sha224: a6:83:10:ed:4b:74:b3:9e:20:a5:43:b8:f5:ae:58:94:5b:ec:d7:66:74:3d:e4:0a:60:22:d2:6a
+    sha256: be:df:15:39:26:d1:f4:b9:64:3d:7a:e0:a9:80:e6:3a:c4:e1:9d:90:2f:ad:b8:31:9c:5e:e4:be:3b:58:37:04
+    sha384: ae:d9:08:68:23:00:c2:98:04:df:17:55:4d:1f:4b:8a:d7:bc:5b:60:ff:22:df:d1:2c:3a:28:0a:58:69:45:ca:02:56:b2:86:12:fc:f0:a9:ce:26:c3:f7:52:76:0f:e7
+    sha3_224: 61:e0:a7:60:ed:c0:5e:d7:e5:ca:f2:87:34:c0:e9:45:8a:3a:a3:87:e5:fb:9a:9a:9b:da:4b:d4
+    sha3_256: e6:7e:5a:11:d5:a6:bf:60:bf:24:1c:4c:64:be:2c:97:be:9a:49:e8:03:bf:ee:7e:7a:67:90:67:f1:73:27:5e
+    sha3_384: ca:eb:68:1e:8d:d1:d4:0d:b1:0d:8b:c9:e6:da:54:4d:47:1f:cc:1d:c5:f5:dd:1d:92:36:09:b8:99:e0:6a:48:9a:5a:19:8b:f5:dd:b9:93:20:93:a0:87:10:54:82:58
+    sha3_512: 45:78:d6:eb:a5:6f:90:59:77:f7:86:47:83:53:30:e9:99:dd:92:c1:06:9e:6f:0c:22:6b:75:ab:e7:16:49:43:c6:15:77:da:47:23:6b:b7:bd:f7:87:a4:43:51:8c:40:6e:a7:97:83:cd:9f:4e:24:5d:f5:73:ce:39:f2:80:cc
+    sha512: a4:0c:58:ae:9e:71:98:3f:e6:4a:66:ad:bb:ca:27:3d:95:75:a8:08:76:28:71:7a:d7:cd:2c:0d:d5:0f:be:ce:b7:aa:e5:4e:1e:b0:31:c0:8a:6a:0c:30:2d:33:08:06:fd:83:aa:57:b5:e5:ac:89:2a:76:f3:45:e3:6b:49:ac
+    shake_128: b4:a6:85:a1:fc:eb:ce:f4:c1:da:28:d3:4c:db:21:e6:c9:34:df:7d:df:bf:af:b9:3b:5e:86:af:8e:d0:78:63
+    shake_256: 41:2b:e2:85:8e:17:5b:d8:49:9f:32:ae:95:0d:ed:5a:24:ee:01:f1:0e:75:bc:52:5b:c4:5d:55:2e:ae:b9:07
+public_key_type: RSA
+serial_number: 653774933445278732554857138068534737373520485433
+signature_algorithm: sha256WithRSAEncryption
+subject:
+    commonName: Example Corp Openstack Infrastructure Intermediate CA
+    countryName: GB
+    stateOrProvinceName: England
+subject_alt_name:
+- DNS:Example Corp Openstack Infrastructure Intermediate CA
+subject_alt_name_critical: false
+subject_key_identifier: 26:1a:ed:db:26:ec:68:c1:95:b8:46:22:27:cf:d8:8a:42:04:50:32
+subject_ordered:
+-   - countryName
+    - GB
+-   - stateOrProvinceName
+    - England
+-   - commonName
+    - Example Corp Openstack Infrastructure Intermediate CA
+valid_at: {}
+version: 3

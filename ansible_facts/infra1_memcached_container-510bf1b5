@@ -1,0 +1,153 @@
+{
+    "_ansible_facts_gathered": true,
+    "ansible_apparmor": {
+        "status": "enabled"
+    },
+    "ansible_architecture": "x86_64",
+    "ansible_cmdline": {
+        "BOOT_IMAGE": "/vmlinuz-5.4.0-104-generic",
+        "biosdevname": "0",
+        "net.ifnames": "0",
+        "ro": true,
+        "root": "/dev/mapper/ubuntu--vg-ubuntu--lv"
+    },
+    "ansible_date_time": {
+        "date": "2022-03-10",
+        "day": "10",
+        "epoch": "1646908837",
+        "hour": "10",
+        "iso8601": "2022-03-10T10:40:37Z",
+        "iso8601_basic": "20220310T104037900164",
+        "iso8601_basic_short": "20220310T104037",
+        "iso8601_micro": "2022-03-10T10:40:37.900164Z",
+        "minute": "40",
+        "month": "03",
+        "second": "37",
+        "time": "10:40:37",
+        "tz": "UTC",
+        "tz_dst": "UTC",
+        "tz_offset": "+0000",
+        "weekday": "Thursday",
+        "weekday_number": "4",
+        "weeknumber": "10",
+        "year": "2022"
+    },
+    "ansible_distribution": "Ubuntu",
+    "ansible_distribution_file_parsed": true,
+    "ansible_distribution_file_path": "/etc/os-release",
+    "ansible_distribution_file_variety": "Debian",
+    "ansible_distribution_major_version": "20",
+    "ansible_distribution_release": "focal",
+    "ansible_distribution_version": "20.04",
+    "ansible_dns": {
+        "nameservers": [
+            "10.0.3.1"
+        ]
+    },
+    "ansible_domain": "openstack.local",
+    "ansible_effective_group_id": 0,
+    "ansible_effective_user_id": 0,
+    "ansible_env": {
+        "HOME": "/root",
+        "LANG": "en_US.UTF-8",
+        "LOGNAME": "root",
+        "MAIL": "/var/mail/root",
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+        "PWD": "/root",
+        "SHELL": "/bin/bash",
+        "SHLVL": "0",
+        "USER": "root",
+        "XDG_RUNTIME_DIR": "/run/user/0",
+        "XDG_SESSION_CLASS": "background",
+        "XDG_SESSION_ID": "62",
+        "XDG_SESSION_TYPE": "unspecified",
+        "_": "/bin/sh"
+    },
+    "ansible_fips": false,
+    "ansible_fqdn": "infra1-memcached-container-510bf1b5.openstack.local",
+    "ansible_hostname": "infra1-memcached-container-510bf1b5",
+    "ansible_kernel": "5.4.0-104-generic",
+    "ansible_kernel_version": "#118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022",
+    "ansible_local": {
+        "openstack_ansible": {
+            "lxc": {
+                "variant": "default"
+            }
+        }
+    },
+    "ansible_lsb": {
+        "codename": "focal",
+        "description": "Ubuntu 20.04.4 LTS",
+        "id": "Ubuntu",
+        "major_release": "20",
+        "release": "20.04"
+    },
+    "ansible_machine": "x86_64",
+    "ansible_machine_id": "2c799254823a43788ba44ebf296d1528",
+    "ansible_nodename": "infra1-memcached-container-510bf1b5",
+    "ansible_os_family": "Debian",
+    "ansible_pkg_mgr": "apt",
+    "ansible_proc_cmdline": {
+        "BOOT_IMAGE": "/vmlinuz-5.4.0-104-generic",
+        "biosdevname": "0",
+        "net.ifnames": "0",
+        "ro": true,
+        "root": "/dev/mapper/ubuntu--vg-ubuntu--lv"
+    },
+    "ansible_python": {
+        "executable": "/usr/bin/python3",
+        "has_sslcontext": true,
+        "type": "cpython",
+        "version": {
+            "major": 3,
+            "micro": 10,
+            "minor": 8,
+            "releaselevel": "final",
+            "serial": 0
+        },
+        "version_info": [
+            3,
+            8,
+            10,
+            "final",
+            0
+        ]
+    },
+    "ansible_python_version": "3.8.10",
+    "ansible_real_group_id": 0,
+    "ansible_real_user_id": 0,
+    "ansible_selinux": {
+        "status": "disabled"
+    },
+    "ansible_selinux_python_present": true,
+    "ansible_service_mgr": "systemd",
+    "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLH4sf8LQHDP+0Wa8JLARJs1PipjJCSx2HhpAwzgonplyQzJWpTW3kDg/M+ou4WIn/KqBvvat+77puvf5h+i97Q=",
+    "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
+    "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIBofEpY7YPW/lc00R6PIfpfwnYUbDl0fDnQ9azLxcx2N",
+    "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
+    "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQCz5LHrmMDsRQBFQYiO/NPO4+nlXn/g1BTsQ3xPxU61U8j0sA21f+CbD/XmAMZB40j9uYPjEP2wjN7n351F11i6id3q4iuR9lIifxXzbo9kaifLeNsPuVyn2uzARZmFl09zOEDgoILltSDS4p2jYvWOpXhV9JSE20xSXtmDVn9HYTuo8n/+JeJgB9msMve3VMS+xoh7GtpknzPsxjx4quANvUpoEcOTsJOHpoka1RzbTKntsK9m8oz7cxF4oydUzA/vi+jpXLE4f86NrbXjOWhPPpifZp1T/6zo12+aGzbCdkNOVKvwwk48hpa7JCoDyE8Mhk/aoFp7QLZiyDHiCWMUYAecPll1rZzhnaZd2HckYiwJM/4OPyvHkEIXUYkjEASCoTqbTA1wUQcxFh3zmhKafic47CQd9/zrKyfhdM7qDAbXWUmPsg/gT407HA4lMTSgygwt4DQP3IQstu4uNx7WaEZ6/5FkLdQoco2dmbHIRNFQho9OLAQsPhAdTyoHvi0=",
+    "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
+    "ansible_system": "Linux",
+    "ansible_system_capabilities": [
+        "ep cap_sys_module",
+        "cap_sys_rawio",
+        "cap_sys_time",
+        "cap_mac_override",
+        "cap_mac_admin-ep"
+    ],
+    "ansible_system_capabilities_enforced": "True",
+    "ansible_user_dir": "/root",
+    "ansible_user_gecos": "root",
+    "ansible_user_gid": 0,
+    "ansible_user_id": "root",
+    "ansible_user_shell": "/bin/bash",
+    "ansible_user_uid": 0,
+    "ansible_userspace_architecture": "x86_64",
+    "ansible_userspace_bits": "64",
+    "discovered_interpreter_python": "/usr/bin/python3",
+    "gather_subset": [
+        "!all",
+        "min"
+    ],
+    "module_setup": true
+}
