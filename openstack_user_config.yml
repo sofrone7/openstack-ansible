@@ -1,22 +1,17 @@
 ---
 cidr_networks:
-  container: 10.0.123.0/22 #172.29.236.0/22
-  tunnel: 10.0.125.0/22 #172.29.240.0/22
-  #storage: 172.29.244.0/22
+  container: 10.0.123.0/22 
+  tunnel: 10.0.125.0/22 
 
 used_ips:
-  - "10.0.123.1,10.0.123.50"
-  - "10.0.125.1,10.0.125.50"
-    # - "172.29.236.1,172.29.236.50"
-    # - "172.29.240.1,172.29.240.50"
-    # - "172.29.244.1,172.29.244.50"
-    # - "172.29.248.1,172.29.248.50"
+  - "10.0.123.10,10.0.123.12"
+  - "10.0.125.11,10.0.125.12"
 
 global_overrides:
   # The internal and external VIP should be different IPs, however they
   # do not need to be on separate networks.
-  external_lb_vip_address: 10.0.123.10 #172.29.236.10
-  internal_lb_vip_address: 10.0.123.11 #172.29.236.11
+  external_lb_vip_address: 10.0.123.10 
+  internal_lb_vip_address: 10.0.123.11
   management_bridge: "br-mgmt"
   provider_networks:
     - network:
@@ -57,17 +52,7 @@ global_overrides:
         net_name: "vlan"
         group_binds:
           - neutron_linuxbridge_agent
-            #  - network:
-            #      container_bridge: "br-storage"
-            #      container_type: "veth"
-            #      container_interface: "eth2"
-            #      ip_from_q: "storage"
-            #      type: "raw"
-            #      group_binds:
-            #        - glance_api
-            #        - cinder_api
-            #        - cinder_volume
-            #        - nova_compute
+            
 
 ###
 ### Infrastructure
@@ -136,16 +121,3 @@ network_hosts:
 compute_hosts:
   compute1:
     ip: 10.0.123.12
-
-# cinder storage host (LVM-backed)
-#storage_hosts:
-#  storage1:
-#    ip: 172.29.236.13
-#    container_vars:
-#      cinder_backends:
-#        limit_container_types: cinder_volume
-#        lvm:
-#          volume_group: cinder-volumes
-#          volume_driver: cinder.volume.drivers.lvm.LVMVolumeDriver
-#          volume_backend_name: LVM_iSCSI
-#          iscsi_ip_address: "172.29.244.13"
